@@ -1,9 +1,9 @@
 +++
-hiddenTitle = "About Me"
-date = "2020-12-25"
+hiddenTitle="About Me"
+date= "2020-12-25"
 +++
 
-{{< typewriter data="About Me">}}
+{{<typewriter data="About Me">}}
 
 I'm a senior at Yale majoring in history. I'm a first-generation college
 student from Louisville, Kentucky, and I'm passionate about

@@ -74,14 +74,14 @@ publishDir   = "public"
 
   # Menu Items List
 
-  [[menu.main]]
-    identifier = "experience"
-    name       = "Experience"
-    url        = "/experience"
+ # [[menu.main]]
+  #  identifier = "experience"
+   # name       = "Experience"
+    #url        = "/experience"
 
-  [[menu.main]]
-    identifier = "about"
-    name       = "About Me"
-    url        = "/about"
+ # [[menu.main]]
+  #  identifier = "about"
+   # name       = "About Me"
+    #url        = "/about"
 
   # markup

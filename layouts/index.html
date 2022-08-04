@@ -4,9 +4,11 @@
             {{ if .Site.Params.Portrait.Path }}
                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width: {{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
+            <div class="typewriter-container">
             <h1 class = "typewrite" data-period="2000" data-type='[ "Hey, I&#39;m Spencer!", "I&#39;m a senior at Yale.", "I&#39;m from Louisville." ]'>
-                <span class="typewriter-text"></span>
+                   <span class="typewriter-text"></span>
             </h1>
+        </div>
             {{- with .Site.Params.social }}
                 <div>
                     {{ partial "social-icons.html" . }}
