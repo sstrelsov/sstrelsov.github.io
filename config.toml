@@ -1,0 +1,87 @@
+baseurl      = "localhost"
+title        = "Spencer Strelsov"
+languageCode = "en-us"
+paginate     = 10
+
+# Metadata mostly used in document's head
+keywords = ""
+images = [""]
+
+# File organization
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+# Defaults author of posts to me
+[author]
+  name = "Spencer Strelsov"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+# Homepage portrait
+[params.portrait]
+    #path     = "/img/spencer-sketch.jpg"
+    path     = "/img/website_profile_pic.jpg"
+    alt      = "Spencer Strelsov"
+    maxWidth = "200px"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons
+  enableSharingButtons = true
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+# Social icons
+[[params.social]]
+    name = "email"
+    url  = "mailto:spencer.strelsov@yale.edu"
+
+[[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/spencer-strelsov-451041100/"
+
+#[[params.social]]
+ #   name = "medium"
+  #  url  = "https://medium.com/@sstrelsov"
+  
+# Browser tab
+[languages]
+  [languages.en]
+    title = "Spencer Strelsov"
+    weight = 1
+    readOtherPosts = "Read other posts"
+
+
+    # or
+    #
+    # path = "/img/spencer-sketch.jpg"
+    # alt = "Your example logo alt text"
+
+
+  # Menu Items List
+
+ # [[menu.main]]
+  #  identifier = "experience"
+   # name       = "Experience"
+    #url        = "/experience"
+
+ # [[menu.main]]
+  #  identifier = "about"
+   # name       = "About Me"
+    #url        = "/about"
+
+  # markup
