@@ -1,14 +1,12 @@
 <footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            {{ if .Site.Author.name }}
-                {{ if eq .Permalink .Site.BaseURL }}
-                <!--<span>&copy; {{ now.Format "2006" }}</span>-->
-                <!--<span>{{ .Site.Author.name }}</span>-->
-                {{ else }}
-                <span><a href="{{ .Site.BaseURL }}">Return Home</a></span>
-                {{ end }}
-            {{ end }}
-        </div>
+  <div class="footer__inner">
+    <div class="footer__content">
+      {{ if .Site.Author.name }} {{ if eq .Permalink .Site.BaseURL }}
+      <!--<span>&copy; {{ now.Format "2006" }}</span>-->
+      <!--<span>{{ .Site.Author.name }}</span>-->
+      {{ else }}
+      <span><a href="{{ .Site.BaseURL }}">Return Home</a></span>
+      {{ end }} {{ end }}
     </div>
+  </div>
 </footer>

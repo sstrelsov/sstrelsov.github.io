@@ -17,3 +17,5 @@ hugo.linux
 
 # Local files
 local.sh
+package.json
+yarn.lock

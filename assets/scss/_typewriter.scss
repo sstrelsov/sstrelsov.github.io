@@ -1,37 +1,36 @@
 .typewriter-text {
-   //border-right: 2.2px solid #fe5186;
-   white-space: nowrap;
-   overflow: hidden;
-   text-decoration-line: none;
-   padding: 0.3px;
-   font-family: "Lora", 'Inter UI Medium';
-   animation: blink 0.9s steps(44) infinite normal;
-   //typewriter 2s steps(22) 1s 1 normal both, 
+  //border-right: 2.2px solid #fe5186;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration-line: none;
+  padding: 0.3px;
+  font-family: "Lora", "Inter UI Medium";
+  animation: blink 0.9s steps(44) infinite normal;
+  //typewriter 2s steps(22) 1s 1 normal both,
 }
 
 .typewriter-container {
-    margin: 2rem;
-    width: 500px;
+  margin: 2rem;
+  width: 500px;
 }
 
-
 @keyframes typewriter {
-    from {
-        width: 0;
-    }
+  from {
+    width: 0;
+  }
 
-    to {
-        width: 100%;
-    }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink {
-    from {
-        //border-right-color: #fe5186;
-        border-right-color: opacity($color: #000000);
-    }
+  from {
+    //border-right-color: #fe5186;
+    border-right-color: opacity($color: #000000);
+  }
 
-    to {
-        border-right-color: transparent;
-    }
+  to {
+    border-right-color: transparent;
+  }
 }

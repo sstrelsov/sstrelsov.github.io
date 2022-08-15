@@ -36,6 +36,11 @@ publishDir   = "public"
     alt      = "Spencer Strelsov"
     maxWidth = "200px"
 
+[params.typewriter]
+  phraseOne = "Hey, I'm Spencer!"
+  phraseTwo = "I'm a senior at Yale."
+  phraseThree = "I'm from Louisville."
+
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 

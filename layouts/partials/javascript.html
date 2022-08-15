@@ -1,16 +1,15 @@
-{{ $main := resources.Get "js/main.js" }}
-{{ $typewriter := resources.Get "js/typewriter.js" }}
-{{ $color := resources.Get "js/color.js" }}
-{{ $prism := resources.Get "js/prism.js" }}
-{{ $secureJS := slice $main $typewriter $color $prism | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+{{ $main := resources.Get "js/main.js" }} {{ $typewriter := resources.Get
+"js/typewriter.js" }} {{ $color := resources.Get "js/color.js" }} {{ $prism :=
+resources.Get "js/prism.js" }} {{ $secureJS := slice $main $typewriter  $color
+$prism | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint
+"sha512" }}
+<script
+  type="text/javascript"
+  src="{{ $secureJS.RelPermalink }}"
+  integrity="{{ $secureJS.Data.Integrity }}"
+></script>
 
-{{- if .Site.GoogleAnalytics }}
-    {{ template "_internal/google_analytics.html" . }}
-{{- end}}
-
-{{ range $val := $.Site.Params.customJS }}
-    {{ if gt (len $val) 0 }}
-        <script src="{{ $val }}"></script>
-    {{ end }}
-{{ end }}
+{{- if .Site.GoogleAnalytics }} {{ template "_internal/google_analytics.html" .
+}} {{- end}} {{ range $val := $.Site.Params.customJS }} {{ if gt (len $val) 0 }}
+<script src="{{ $val }}"></script>
+{{ end }} {{ end }}

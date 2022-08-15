@@ -10,7 +10,7 @@
 
   &-date {
     &:after {
-      content: '—';
+      content: "—";
     }
   }
 
@@ -40,9 +40,9 @@
   &-content {
     margin-top: 30px;
 
-   // a:hover {
-   //   color: #fe5186;
-   // }
+    // a:hover {
+    //   color: #fe5186;
+    // }
   }
 
   &-cover {
@@ -84,7 +84,7 @@
 
     .feather {
       display: inline-block;
-      vertical-align: -.125em;
+      vertical-align: -0.125em;
       width: 1em;
       height: 1em;
     }
