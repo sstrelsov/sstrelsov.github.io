@@ -59,9 +59,9 @@ publishDir   = "public"
     name = "linkedin"
     url  = "https://www.linkedin.com/in/spencer-strelsov-451041100/"
 
-#[[params.social]]
- #   name = "medium"
-  #  url  = "https://medium.com/@sstrelsov"
+[[params.social]]
+    name = "github"
+    url  = "https://github.com/sstrelsov"
   
 # Browser tab
 [languages]
