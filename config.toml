@@ -38,8 +38,8 @@ publishDir   = "public"
 
 [params.typewriter]
   phraseOne = "Hey, I'm Spencer!"
-  phraseTwo = "I'm a senior at Yale."
-  phraseThree = "I'm from Louisville."
+  phraseTwo = "I'm a PM at Casetext."
+  phraseThree = "I'm based out of NYC."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -53,7 +53,7 @@ publishDir   = "public"
 # Social icons
 [[params.social]]
     name = "email"
-    url  = "mailto:spencer.strelsov@yale.edu"
+    url  = "mailto:sstrelsov@gmail.com"
 
 [[params.social]]
     name = "linkedin"
